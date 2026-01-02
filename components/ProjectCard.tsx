@@ -11,7 +11,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
     <div className="bg-white rounded-2xl border border-slate-100 overflow-hidden hover:shadow-xl transition-all group flex flex-col h-full">
       <div className="h-48 bg-emerald-900 relative overflow-hidden">
         <img 
-          src={`https://picsum.photos/seed/${project.title}/600/400`} 
+          src={project.image || '/images/projects/default.jpg'} 
           className="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-500" 
           alt={project.title}
         />

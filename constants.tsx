@@ -93,6 +93,7 @@ export const PROJECTS: Project[] = [
     subtitle: "Final Year Research Project - University of Sri Jayewardenepura",
     date: "2025 February",
     tools: ["ASPEN Plus", "Python", "Django", "Machine Learning"],
+    image: "/images/projects/absorption-chiller.jpg",
     details: [
       "Develop Machine Learning Model",
       "Develop own Web Site with Django-Python Framework",
@@ -105,6 +106,7 @@ export const PROJECTS: Project[] = [
     subtitle: "Lakvijaya Power Plant - Ceylon Electricity Board",
     date: "2024 February",
     tools: ["PVSyst Simulation", "Meteo Database", "Excel"],
+    image: "/images/projects/solar-plant.jpg",
     details: [
       "Analyze sun path diagram and Loss Diagram",
       "P50 - P90 evaluation",
@@ -117,6 +119,7 @@ export const PROJECTS: Project[] = [
     subtitle: "Lakvijaya Power Plant - Ceylon Electricity Board",
     date: "2024 January",
     tools: ["Jar test", "Turbidity Meter", "pH Meter"],
+    image: "/images/projects/wastewater-treatment.jpg",
     details: [
       "Testing of various coagulant dosages",
       "Optimization of wastewater treatment efficiency"
@@ -127,6 +130,7 @@ export const PROJECTS: Project[] = [
     subtitle: "Energy Audit in Faculty of Technology, USJ",
     date: "2023 March",
     tools: ["EMS", "Data Loggers", "BEMS", "Carbon Footprint Calculators"],
+    image: "/images/projects/energy-audit.jpg",
     details: [
       "Analysis of Lighting and Utility Bills",
       "Implementation of Building Energy Management Systems",
@@ -138,6 +142,7 @@ export const PROJECTS: Project[] = [
     subtitle: "Organic materials development",
     date: "2021 July",
     tools: ["Fermentation Tanks", "Aeration Systems", "pH Adjustment"],
+    image: "/images/projects/organic-fertilizer.jpg",
     details: [
       "Mixing and Homogenization of organic materials",
       "Nutrient addition and pH adjustment for optimal growth"

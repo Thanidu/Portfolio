@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
           <div className="relative w-72 h-72 md:w-96 md:h-96 mx-auto">
             <div className="absolute inset-0 bg-emerald-200 rounded-3xl rotate-6 blur-2xl opacity-30 animate-pulse"></div>
             <img 
-              src="https://picsum.photos/seed/engineer/800/800" 
+              src="/images/profile.jpg" 
               alt={PERSONAL_INFO.name} 
               className="relative z-10 w-full h-full object-cover rounded-3xl shadow-2xl border-4 border-white"
             />

@@ -19,6 +19,7 @@ export interface Project {
   date: string;
   tools: string[];
   details: string[];
+  image?: string;
 }
 
 export interface Publication {
